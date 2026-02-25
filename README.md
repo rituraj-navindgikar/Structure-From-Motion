@@ -72,7 +72,7 @@ Reconstruction initialized from camera pair (14, 15) which has the best motion b
 Full bundle adjustment using GTSAM's Levenberg-Marquardt optimizer. Adaptive noise model based on number of observations per point (1.0px for 4+ observations, up to 2.0px for 2 observations).
 
 ```
-Initial reprojection error:   271.68 pixels pixels
+Initial reprojection error:   271.68 pixels
 Final reprojection error:    39.64 pixels
 ```
 
