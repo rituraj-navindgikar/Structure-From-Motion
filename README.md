@@ -45,7 +45,7 @@ Interactive Plotly visualization of triangulated 3D points and camera trajectory
 
 | Before Bundle Adjustment | After Bundle Adjustment |
 |---|---|
-| ![before_ba](assets/reconstruction_before_ba.png) | ![after_ba](assets/reconstruction_after_ba.png) |
+| ![before_ba](GTSAM/reconstruction_before_ba.png) | ![after_ba](GTSAM/reconstruction_after_ba.png) |
 
 ---
 
@@ -72,8 +72,8 @@ Reconstruction initialized from camera pair (14, 15) which has the best motion b
 Full bundle adjustment using GTSAM's Levenberg-Marquardt optimizer. Adaptive noise model based on number of observations per point (1.0px for 4+ observations, up to 2.0px for 2 observations).
 
 ```
-Initial reprojection error:  ~X.XX pixels
-Final reprojection error:    ~X.XX pixels
+Initial reprojection error:   271.68 pixels pixels
+Final reprojection error:    39.64 pixels
 ```
 
 ---
