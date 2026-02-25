@@ -1,0 +1,5 @@
+viz.py
+solution
+__pycache__
+.ipynb_checkpoints
+*.pyc
